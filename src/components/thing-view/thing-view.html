@@ -1,0 +1,19 @@
+<!-- Generated template for the ThingViewComponent component -->
+<ion-row margin-bottom padding>
+  <ion-col text-center col-2 (click)="zoomImg(data, $event)"> 
+    <img item-center [src]='data.imgUrl' width="100" height="100"/>
+    <a class="zoomerLink">tap to zoom</a>
+  </ion-col>
+  <ion-col col-7>
+    <h1>{{data.name | uppercase}}</h1>
+    <p>{{data.Description}}</p>
+  </ion-col>
+  <ion-col text-center col-3 padding-rigth>
+    <button ion-button clear class="clearButton">
+      Add to wishlist
+    </button>
+    <button ion-button primary item-end class="blueButton">
+      Contact
+    </button>
+  </ion-col>
+</ion-row>

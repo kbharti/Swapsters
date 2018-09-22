@@ -1,0 +1,23 @@
+thing-view {
+    ion-row{
+        background-color: rgb(225, 225, 225);;
+    }
+    img{
+        cursor: pointer;
+    }
+    .clearButton{
+        background-color: rgb(193, 193, 193);;
+        border: 1px solid grey;
+        border-radius: 4px;
+        color: black;
+    }
+    .blueButton{
+        background-color: #284d8e;
+    }
+    .zoomerLink{
+        text-decoration: underline;
+        cursor: pointer;
+        display: block;
+        font-size: 0.7em;
+    }
+}
