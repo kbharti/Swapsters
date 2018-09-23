@@ -1,3 +1,14 @@
 page-about {
-
+    .logoText{
+        font-weight: bolder;
+        color: red;
+        font-style: italic;
+        font-family: cursive;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    .aboutText{
+        text-align: justify;
+        font-size: 1.4em;
+    }
 }
