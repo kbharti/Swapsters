@@ -1,0 +1,13 @@
+<ion-navbar>
+    <span padding class="logoText">
+      SWAPSTERS
+    </span>
+    <ion-buttons end>
+      <button *ngIf='userLoggedIn' large ion-button class="myAccountButton">
+        <ion-icon name="person"></ion-icon>
+      </button>
+      <button *ngIf='!userLoggedIn' large ion-button primary class="loginButton">
+        Login
+      </button>
+    </ion-buttons>
+  </ion-navbar>

@@ -4,11 +4,13 @@ import { ThingsListComponent } from './things-list/things-list';
 import { ThingViewComponent } from './thing-view/thing-view';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { ThingsZoomViewComponent } from './things-zoom-view/things-zoom-view';
+import { HeaderComponent } from './header/header';
 @NgModule({
 	declarations: [
     ThingsListComponent,
     ThingViewComponent,
-    ThingsZoomViewComponent
+    ThingsZoomViewComponent,
+    HeaderComponent
     ],
 	imports: [
         IonicModule,
@@ -17,6 +19,7 @@ import { ThingsZoomViewComponent } from './things-zoom-view/things-zoom-view';
 	exports: [
     ThingsListComponent,
     ThingViewComponent,
-    ThingsZoomViewComponent]
+    ThingsZoomViewComponent,
+    HeaderComponent]
 })
 export class ComponentsModule {}
